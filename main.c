@@ -20,4 +20,8 @@ for (i=0; i<total; ++i) {
       }
     }
   }
+printf("昇順ソートした数値\n");
+  for (i=0; i<total; ++i)
+    printf("%d\n", number[i]);
+}
 
