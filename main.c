@@ -13,7 +13,7 @@ printf("%d個の数値入力 \n", total);
 
 for (i=0; i<total; ++i) {
     for (j=i+1; j<total; ++j) {
-      if (number[i] > number[j]) {
+      if (number[i] < number[j]) {
         tmp =  number[i];
         number[i] = number[j];
         number[j] = tmp;
